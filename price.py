@@ -18,5 +18,3 @@ def discounted(price, discount, max_discount=100): #третий именова�
 product = {'name': 'Samsung Galaxy S10', 'stock': 8, 'price': 50000.0, 'discount': 50}
 
 product['with_discount'] = discounted(product['price'], product['discount'])
-
-#print(product)
